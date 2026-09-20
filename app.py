@@ -431,6 +431,7 @@ def too_large(_):
 def health():
     return jsonify({"status": "ok", "app": "AI Workforce Skill Intelligence"})
 
+init_db()
 
 if __name__ == "__main__":
     init_db()
