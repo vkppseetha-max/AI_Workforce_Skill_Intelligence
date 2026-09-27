@@ -3,7 +3,7 @@
 {% block content %}
 <section class="hero">
   <span class="tag">AI + Workforce Analytics</span>
-  <h1>AI-Powered Workforce Skill Intelligence</h1>
+  <h1>AI Workforce Skill Intelligence</h1>
   <p>Analyze your skills, identify skill gaps, understand future skill demand, and get personalized learning recommendations.</p>
   <div class="hero-actions">
     {% if logged_user %}<a class="btn" href="{{ url_for('dashboard') }}">Open Dashboard</a>{% else %}<a class="btn" href="{{ url_for('register') }}">Get Started</a><a class="btn secondary" href="{{ url_for('login') }}">Login</a>{% endif %}
